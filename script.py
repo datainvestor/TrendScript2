@@ -8,7 +8,7 @@ from pymongo import MongoClient
 from email.mime.text import MIMEText
 import smtplib
 import os
-from config import *
+#from config import *
 
 now = datetime.datetime.now()
 api_news= os.environ["api_news"]
