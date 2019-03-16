@@ -7,6 +7,7 @@ import datetime
 from pymongo import MongoClient 
 from email.mime.text import MIMEText
 import smtplib
+import os
 from config import *
 
 now = datetime.datetime.now()
